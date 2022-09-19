@@ -1,6 +1,6 @@
 {
-	"name": "typeorm-uml",
-	"version": "1.6.5",
+	"name": "@shroomist/typeorm-uml",
+	"version": "1.6.6",
 	"description": "Generates UML diagrams for TypeORM projects",
 	"author": "Eugene Manuilov <eugene.manuilov@gmail.com>",
 	"license": "MIT",
@@ -8,10 +8,7 @@
 	"bugs": {
 		"url": "https://github.com/eugene-manuilov/typeorm-uml/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/eugene-manuilov/typeorm-uml.git"
-	},
+	"repository": "github:shroomist/typeorm-uml",
 	"keywords": [
 		"typeorm",
 		"schema",
@@ -35,7 +32,6 @@
 	},
 	"types": "lib/index.d.ts",
 	"scripts": {
-		"prebuild": "rimraf lib",
 		"build": "tsc -b --force",
 		"watch": "tsc --watch",
 		"format": "npm run lint --silent -- --fix",
